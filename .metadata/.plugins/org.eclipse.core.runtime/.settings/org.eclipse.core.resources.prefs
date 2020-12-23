@@ -1,6 +1,0 @@
-eclipse.preferences.version=1
-pathvariable.OPT_LOC=/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/examples/rtos/CC26X2R1_LAUNCHXL/ble5stack/host_test/tirtos
-pathvariable.TI_BLE=/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/ble5stack
-pathvariable.TI_SIMPLE_LINK=/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54
-pathvariable.TI_SOURCE=/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti
-version=1
