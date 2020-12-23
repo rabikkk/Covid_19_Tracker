@@ -1,0 +1,84 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../osal/src/common/osal.c \
+../osal/src/common/osal_bufmgr.c \
+../osal/src/common/osal_cbtimer.c \
+../osal/src/common/osal_clock.c \
+../osal/src/common/osal_clock_ble.c \
+../osal/src/common/osal_list.c \
+../osal/src/common/osal_memory.c \
+../osal/src/common/osal_memory_icall.c \
+../osal/src/common/osal_pwrmgr.c \
+../osal/src/common/osal_task.c \
+../osal/src/common/osal_timers.c 
+
+C_DEPS += \
+./osal/src/common/osal.d \
+./osal/src/common/osal_bufmgr.d \
+./osal/src/common/osal_cbtimer.d \
+./osal/src/common/osal_clock.d \
+./osal/src/common/osal_clock_ble.d \
+./osal/src/common/osal_list.d \
+./osal/src/common/osal_memory.d \
+./osal/src/common/osal_memory_icall.d \
+./osal/src/common/osal_pwrmgr.d \
+./osal/src/common/osal_task.d \
+./osal/src/common/osal_timers.d 
+
+OBJS += \
+./osal/src/common/osal.obj \
+./osal/src/common/osal_bufmgr.obj \
+./osal/src/common/osal_cbtimer.obj \
+./osal/src/common/osal_clock.obj \
+./osal/src/common/osal_clock_ble.obj \
+./osal/src/common/osal_list.obj \
+./osal/src/common/osal_memory.obj \
+./osal/src/common/osal_memory_icall.obj \
+./osal/src/common/osal_pwrmgr.obj \
+./osal/src/common/osal_task.obj \
+./osal/src/common/osal_timers.obj 
+
+OBJS__QUOTED += \
+"osal/src/common/osal.obj" \
+"osal/src/common/osal_bufmgr.obj" \
+"osal/src/common/osal_cbtimer.obj" \
+"osal/src/common/osal_clock.obj" \
+"osal/src/common/osal_clock_ble.obj" \
+"osal/src/common/osal_list.obj" \
+"osal/src/common/osal_memory.obj" \
+"osal/src/common/osal_memory_icall.obj" \
+"osal/src/common/osal_pwrmgr.obj" \
+"osal/src/common/osal_task.obj" \
+"osal/src/common/osal_timers.obj" 
+
+C_DEPS__QUOTED += \
+"osal/src/common/osal.d" \
+"osal/src/common/osal_bufmgr.d" \
+"osal/src/common/osal_cbtimer.d" \
+"osal/src/common/osal_clock.d" \
+"osal/src/common/osal_clock_ble.d" \
+"osal/src/common/osal_list.d" \
+"osal/src/common/osal_memory.d" \
+"osal/src/common/osal_memory_icall.d" \
+"osal/src/common/osal_pwrmgr.d" \
+"osal/src/common/osal_task.d" \
+"osal/src/common/osal_timers.d" 
+
+C_SRCS__QUOTED += \
+"../osal/src/common/osal.c" \
+"../osal/src/common/osal_bufmgr.c" \
+"../osal/src/common/osal_cbtimer.c" \
+"../osal/src/common/osal_clock.c" \
+"../osal/src/common/osal_clock_ble.c" \
+"../osal/src/common/osal_list.c" \
+"../osal/src/common/osal_memory.c" \
+"../osal/src/common/osal_memory_icall.c" \
+"../osal/src/common/osal_pwrmgr.c" \
+"../osal/src/common/osal_task.c" \
+"../osal/src/common/osal_timers.c" 
+
+

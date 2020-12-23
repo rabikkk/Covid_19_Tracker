@@ -1,0 +1,32 @@
+
+**** Build of configuration Debug for project pwmled2_CC26X2R1_LAUNCHXL_nortos_ccs ****
+
+/opt/ti/ccs1011/ccs/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../pwmled2.syscfg"
+Invoking: SysConfig
+"/opt/ti/ccs1011/ccs/utils/sysconfig_1.6.0/sysconfig_cli.sh" -s "/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/.metadata/product.json" -o "syscfg" --compiler ccs
+ 
+Usage:
+ cli [-o <dir>] [-s <file>] [-u <string>] [-b <name>] [-d <name>] [-p <name>] [-r <name>] [--treatWarningsAsErrors] <script>
+ cli --help
+ cli --version
+ 
+ example: cli -s meta_data/sdk.json -d MSP432P401R scripts/two_uarts.js
+ example: -s sdk.json -d MSP432P401R -o ./display_cfg sdk/cfgs/display.syscfg
+ 
+ Note that the all arguments other than '--help' and '--version' may also be 
+ specified via the script with an embedded @cliArgs comment directive. 
+ E.g. // @cliArgs -d MSP432P401R
+ 
+ If an argument is embedded in a script and explicitly specified via the CLI
+ then precedence is given to the CLI arguments. Additionally, specifying 
+ "--board" or "--device" on the CLI will override any "--board" and "--device"
+  arguments specified in the script.
+ 
+subdir_rules.mk:14: recipe for target 'build-708348673' failed
+Missing argument: --board or --device must be specified
+gmake: *** [build-708348673] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

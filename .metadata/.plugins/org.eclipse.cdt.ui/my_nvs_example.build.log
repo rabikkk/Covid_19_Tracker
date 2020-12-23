@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project my_nvs_example ****
+
+/opt/ti/ccs1011/ccs/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'my_nvs_example.out' is up to date.
+
+**** Build Finished ****

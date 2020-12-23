@@ -1,0 +1,168 @@
+
+**** Build of configuration Debug for project File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs ****
+
+/opt/ti/ccs1011/ccs/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../osal/src/common/osal_bufmgr.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal_bufmgr.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal_bufmgr.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal_bufmgr.obj' failed
+"../osal/src/common/osal_bufmgr.c", line 52: fatal error #1965: cannot open source file "osal.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal_bufmgr.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal_bufmgr.obj] Error 1
+Building file: "../osal/src/common/osal.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal.obj' failed
+"../osal/src/common/osal.c", line 56: fatal error #1965: cannot open source file "comdef.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal.obj] Error 1
+"../osal/src/common/osal_cbtimer.c", line 50: fatal error #1965: cannot open source file "osal.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal_cbtimer.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal_cbtimer.obj] Error 1
+Building file: "../osal/src/common/osal_cbtimer.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal_cbtimer.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal_cbtimer.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal_cbtimer.obj' failed
+"../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal/osal_nv.h", line 59: fatal error #1965: cannot open source file "hal_types.h"
+1 catastrophic error detected in the compilation of "../file_processing.c".
+Compilation terminated.
+gmake: *** [file_processing.obj] Error 1
+Building file: "../file_processing.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="file_processing.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../file_processing.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'file_processing.obj' failed
+Building file: "../osal/src/common/osal_clock.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal_clock.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal_clock.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal_clock.obj' failed
+"../osal/src/common/osal_clock.c", line 51: fatal error #1965: cannot open source file "comdef.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal_clock.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal_clock.obj] Error 1
+Building file: "../osal/src/common/osal_list.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal_list.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal_list.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal_list.obj' failed
+"../osal/src/common/osal_list.c", line 51: fatal error #1965: cannot open source file "osal_list.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal_list.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal_list.obj] Error 1
+Building file: "../osal/src/common/osal_memory.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal_memory.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal_memory.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal_memory.obj' failed
+"../osal/src/common/osal_memory.c", line 56: fatal error #1965: cannot open source file "comdef.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal_memory.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal_memory.obj] Error 1
+Building file: "../osal/src/common/osal_clock_ble.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal_clock_ble.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal_clock_ble.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal_clock_ble.obj' failed
+"../osal/src/common/osal_clock_ble.c", line 51: fatal error #1965: cannot open source file "comdef.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal_clock_ble.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal_clock_ble.obj] Error 1
+Building file: "../osal/src/common/osal_memory_icall.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal_memory_icall.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal_memory_icall.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal_memory_icall.obj' failed
+"../osal/src/common/osal_memory_icall.c", line 53: fatal error #1965: cannot open source file "comdef.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal_memory_icall.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal_memory_icall.obj] Error 1
+"../osal/src/common/osal_pwrmgr.c", line 51: fatal error #1965: cannot open source file "comdef.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal_pwrmgr.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal_pwrmgr.obj] Error 1
+Building file: "../osal/src/common/osal_pwrmgr.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal_pwrmgr.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal_pwrmgr.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal_pwrmgr.obj' failed
+Building file: "../osal/src/common/osal_task.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal_task.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal_task.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal_task.obj' failed
+"../osal/src/common/osal_task.c", line 50: fatal error #1965: cannot open source file "FreeRTOS.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal_task.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal_task.obj] Error 1
+Building file: "../osal/src/common/osal_timers.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/common/osal_timers.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/common" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/common/osal_timers.c"
+ 
+>> Compilation failure
+osal/src/common/subdir_rules.mk:7: recipe for target 'osal/src/common/osal_timers.obj' failed
+"../osal/src/common/osal_timers.c", line 51: fatal error #1965: cannot open source file "comdef.h"
+1 catastrophic error detected in the compilation of "../osal/src/common/osal_timers.c".
+Compilation terminated.
+gmake: *** [osal/src/common/osal_timers.obj] Error 1
+"../osal/src/mcu/cc26xx/osal_snv.c", line 51: fatal error #1965: cannot open source file "hal_adc.h"
+1 catastrophic error detected in the compilation of "../osal/src/mcu/cc26xx/osal_snv.c".
+Compilation terminated.
+gmake: *** [osal/src/mcu/cc26xx/osal_snv.obj] Error 1
+"../osal/src/mcu/cc26xx/osal_nv.c", line 51: fatal error #1965: cannot open source file "hal_board_cfg.h"
+1 catastrophic error detected in the compilation of "../osal/src/mcu/cc26xx/osal_nv.c".
+Compilation terminated.
+gmake: *** [osal/src/mcu/cc26xx/osal_nv.obj] Error 1
+Building file: "../osal/src/mcu/cc26xx/osal_snv.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/mcu/cc26xx/osal_snv.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/mcu/cc26xx" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/mcu/cc26xx/osal_snv.c"
+ 
+>> Compilation failure
+osal/src/mcu/cc26xx/subdir_rules.mk:7: recipe for target 'osal/src/mcu/cc26xx/osal_snv.obj' failed
+"../osal/src/mcu/cc26xx/osal_snv_octp.c", line 51: fatal error #1965: cannot open source file "hal_types.h"
+1 catastrophic error detected in the compilation of "../osal/src/mcu/cc26xx/osal_snv_octp.c".
+Compilation terminated.
+gmake: *** [osal/src/mcu/cc26xx/osal_snv_octp.obj] Error 1
+Building file: "../osal/src/mcu/cc26xx/osal_nv.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/mcu/cc26xx/osal_nv.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/mcu/cc26xx" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/mcu/cc26xx/osal_nv.c"
+ 
+>> Compilation failure
+osal/src/mcu/cc26xx/subdir_rules.mk:7: recipe for target 'osal/src/mcu/cc26xx/osal_nv.obj' failed
+Building file: "../osal/src/mcu/cc26xx/osal_snv_octp.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/mcu/cc26xx/osal_snv_octp.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/mcu/cc26xx" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/mcu/cc26xx/osal_snv_octp.c"
+ 
+>> Compilation failure
+osal/src/mcu/cc26xx/subdir_rules.mk:7: recipe for target 'osal/src/mcu/cc26xx/osal_snv_octp.obj' failed
+Building file: "../osal/src/mcu/cc26xx/osal_snv_wrapper.c"
+Invoking: ARM Compiler
+"/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source" --include_path="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/posix/ccs" --include_path="/opt/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/drivers" --include_path="../../../ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti/zstack/osal" --define=DeviceFamily_CC26X2 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="osal/src/mcu/cc26xx/osal_snv_wrapper.d_raw" --include_path="/home/vestel/workspace_ccs/File_processing_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug/syscfg" --obj_directory="osal/src/mcu/cc26xx" --cmd_file="/home/vestel/workspace_ccs/tirtos_builds_cc13x2_cc26x2_release_ccs/Debug/configPkg/compiler.opt"  "../osal/src/mcu/cc26xx/osal_snv_wrapper.c"
+ 
+>> Compilation failure
+osal/src/mcu/cc26xx/subdir_rules.mk:7: recipe for target 'osal/src/mcu/cc26xx/osal_snv_wrapper.obj' failed
+"../osal/src/mcu/cc26xx/osal_snv_wrapper.c", line 47: fatal error #1965: cannot open source file "icall_user_config.h"
+1 catastrophic error detected in the compilation of "../osal/src/mcu/cc26xx/osal_snv_wrapper.c".
+Compilation terminated.
+gmake: *** [osal/src/mcu/cc26xx/osal_snv_wrapper.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

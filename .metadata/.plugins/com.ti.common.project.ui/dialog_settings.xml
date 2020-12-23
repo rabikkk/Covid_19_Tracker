@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ti.ccstudio.project.ui.internal.preferences.CodegenToolsPreferencePage">
+		<item key="ToolsPreferencePage.BROWSE_FILTER" value="/opt/ti/ccs1011/ccs"/>
+	</section>
+	<section name="com.ti.common.project.ui.internal.dialogs.ProductSelectionDialog">
+		<item key="PRODUCT_TYPE" value="com.ti.SIMPLELINK_ACADEMY_CC2640R2SDK"/>
+	</section>
+	<section name="com.ti.common.project.ui.internal.preferences.ProductsPreferencePage">
+		<item key="ToolsPreferencePage.BROWSE_FILTER" value="/home/vestel/ti/simplelink_cc13x2_26x2_sdk_4_30_00_54/source/ti"/>
+	</section>
+</section>

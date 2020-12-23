@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;empty_CC26X2R1_LAUNCHXL_tirtos_ccs/empty.c&apos; to &apos;my_nvc.c&apos;" description="Rename resource &apos;empty.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="empty.c" name="my_nvc.c" stamp="1608187291435" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;empty_CC26X2R1_LAUNCHXL_tirtos_ccs/my_nvc.c&apos; to &apos;my_nvs.c&apos;" description="Rename resource &apos;my_nvc.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="my_nvc.c" name="my_nvs.c" stamp="1608187300483" updateReferences="true"/>
+</session>
